@@ -38,5 +38,5 @@ wrapt==1.11.2
 WTForms==2.2.1
 zope.interface==4.6.0
 openpyxl==3.0.3
-uWSGI==2.0.18
 mysqlclient==1.4.6
+uWSGI==2.0.18
