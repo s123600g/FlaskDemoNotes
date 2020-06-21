@@ -20,12 +20,10 @@ Set DirectoryName=migrations\
 IF NOT EXIST %DirPath%%DirectoryName% (
     echo The [ %DirPath%%DirectoryName% ] is not exists.
     echo Skip remove action.
-
 ) else (
     echo The [ %DirPath%%DirectoryName% ] is exists.
     echo Remove 'migrations' directory.
     rmdir /s /q %DirPath%%DirectoryName%
-
 )
 
 :: 初始化建立migrations目錄

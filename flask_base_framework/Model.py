@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from sqlalchemy import Column, Integer, String, DateTime, Text
-from sqlalchemy import ForeignKey
 from Server import db
 
 

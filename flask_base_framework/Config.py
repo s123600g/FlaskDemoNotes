@@ -44,17 +44,13 @@ class BaseConfig():
     SQLAlCHEMY_COMMIT_ON_TEARDOWN = False
 
 
-''' Server start up for develop status config '''
-
-
+''' 
+Server start up for develop status config 
+'''
 class DevelopermentConfig(BaseConfig):
 
     DEBUG = True
     SECRET_KEY = "FLAskOsw12j/3yX R~Xkl!fgN]baseD/,?TT"
-
-
-''' Server start up for formal status config '''
-
 
 class ProductionConfig(BaseConfig):
 
