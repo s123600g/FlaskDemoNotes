@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT) 
+
 # Python Flask Web與Docker建置網站筆記
 
 筆記章節:
