@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
+from Startup import app,db
 from flask_script import Manager, Command
 from flask_migrate import Migrate, MigrateCommand
-from Server import app
-from Server import db
 
 # Create Flask Manager Instance
 manager = Manager(app)

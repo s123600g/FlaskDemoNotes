@@ -1,32 +1,14 @@
 # -*- coding: utf-8 -*-
 
-from flask import Flask , render_template
-from flask_sqlalchemy import SQLAlchemy
-from Config import config
-
-import codecs
-
-# 設定專案預設編碼格式
-codecs.register(lambda name: codecs.lookup(
-    'utf8') if name == 'utf8mb4' else None)
-
-app = Flask(__name__)
-
-# 載入 Flask Config Setting Values，模式為 developermentConfig
-app.config.from_object(config['developermentConfig'])
-
-# 載入 Flask Config Setting Values，模式為 productionConfig
-# app.config.from_object(config['productionConfig'])
-
-# Create SQLAlchemy Instance
-db = SQLAlchemy(app)
+from Startup import app, db
+from flask import render_template
 
 '''
 ----------------------------------------------------------------------
-從Model中匯入資料表模型
+匯入資料表模型
 ----------------------------------------------------------------------
 '''
-from Model import Base_Data
+from BaseData.BaseData import Base_Data
 '''-------------------------------------------------------------------'''
 
 '''
@@ -36,7 +18,7 @@ from Model import Base_Data
 '''
 @app.errorhandler(404)
 def page_not_found(e): # 404 Not Found頁面
-    return 'NotFound404.html', 404
+    return 'PageNotFound 404', 404
 '''-------------------------------------------------------------------'''
 
 '''

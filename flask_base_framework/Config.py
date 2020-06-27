@@ -7,7 +7,6 @@ import os
 current_path = os.getcwd()
 # 取得目前專案執行路徑上一層位置
 previous_path = current_path.rstrip(os.path.basename(current_path))
-
 full_ProjectName = os.path.basename(previous_path.rstrip('/'))
 
 # print("current_path: {}".format(current_path))
@@ -25,10 +24,10 @@ class BaseConfig():
 
     # Database DB API Arguments Config
     db_config = {
-        'db_user': "",  # User
-        'db_psw': "",  # User PassWord
-        'db_host': "",  # DB Host
-        'db_schema': ""  # DB Schema Name
+        'db_user': "myflask",  # User
+        'db_psw': "myflask",  # User PassWord
+        'db_host': "127.0.0.1:3307",  # DB Host
+        'db_schema': "flask"  # DB Schema Name
     }
 
     # Session 生命週期
@@ -63,5 +62,6 @@ config = {
 
     'developermentConfig': DevelopermentConfig,
     'productionConfig': ProductionConfig,
-
+    # 網站運作是否為開發模式，用在Flask初始化載入封裝模式選擇
+    'run_mode_dev':True
 }

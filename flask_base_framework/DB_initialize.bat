@@ -11,7 +11,7 @@ Setlocal
 :: 3. python mange.py db upgrade
 
 :: 設置所在位置目錄
-Set DirPath=E:\Project\IKEA_Project\System_Demo\CASY_Project\
+Set DirPath=E:\Project\GitHub\FlaskDemoNotes\flask_base_framework\
 
 :: 設置migrations目錄名稱
 Set DirectoryName=migrations\
