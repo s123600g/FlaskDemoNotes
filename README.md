@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT) 
+[![](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/s123600g/FlaskDemoNotes) ![GitHub last commit](https://img.shields.io/github/last-commit/s123600g/FlaskDemoNotes) ![GitHub stars](https://img.shields.io/github/stars/s123600g/FlaskDemoNotes?style=social)
 
 # Python Flask Web與Docker建置網站筆記
 
