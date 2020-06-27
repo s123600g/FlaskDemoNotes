@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from sqlalchemy import Column, Integer, String, DateTime, Text
 from Startup import db
+from sqlalchemy import Column, Integer, String, DateTime, Text
 
 class Base_Data(db.Model):
 
