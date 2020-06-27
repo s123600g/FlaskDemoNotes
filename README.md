@@ -7,4 +7,3 @@
 2. [使用Docker運行Nginx與uWSGI容器服務](https://hackmd.io/0VSgSzPHTfaAfwcO3mVZ1Q)
 3. [Flask 基本框架配置](https://hackmd.io/Yyi0z84aTxuHtL5A21ew_g)
 
-後續進階摸索筆記待更新...
