@@ -1,7 +1,7 @@
 FROM nginx:stable
 
 ENV web_project="web_data"
-ENV web_port=80
+ENV web_port=85
 
 RUN apt-get update && apt-get install -y curl python3 python3-dev python3-pip nano gcc default-libmysqlclient-dev iputils-ping
 RUN mkdir /web \
