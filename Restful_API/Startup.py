@@ -32,12 +32,12 @@ Initialize Flask Restful API Instance
 api = Api(app)
 
 '''
-加入 Restful API Controller
+Import Restful API Module
 '''
 from Restful_API.FirstAPI import FirstAPI
 
 '''
-註冊 Restful API Controller
+Register Restful API Module for Router
 '''
 api.add_resource(FirstAPI, '/firstapi',methods=['GET','POST'])
 
