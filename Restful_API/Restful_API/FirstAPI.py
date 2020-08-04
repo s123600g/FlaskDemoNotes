@@ -44,7 +44,6 @@ class FirstAPI(Resource):
         # Get JSON Data
         data = request.get_json(force=True) 
 
-        # get url argument - "title"
         get_web_arg_title = str(data["title"])
         get_web_arg_value = str(data["value"])
 
