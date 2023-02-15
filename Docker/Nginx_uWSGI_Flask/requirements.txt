@@ -10,6 +10,6 @@ Flask-SQLAlchemy
 Flask-WTF
 Jinja2
 SQLAlchemy
-Werkzeug==0.16.0
+Werkzeug==2.2.3
 mysqlclient
 uWSGI
